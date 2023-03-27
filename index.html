@@ -1,74 +1,86 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La mia pagina</title>
-  <style>
-    /* Stili CSS per la pagina */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-    }
-    nav {
-      background-color: #555;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      text-align: justify;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    /* Media queries per il layout responsive */
-    @media screen and (min-width: 768px) {
-      /* Layout a due colonne */
-      header, footer {
-        display: none;
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina HTML5 Responsive</title>
+    <style>
+      /* Stili per il layout */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
       }
       nav {
-        width: 20%;
-        display: inline-block;
-        vertical-align: top;
+        background-color: #555;
+        color: #fff;
+        padding: 10px;
       }
-      section {
-        width: 80%;
-        display: inline-block;
-        vertical-align: top;
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
       }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>La mia pagina</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Chi siamo</a></li>
-      <li><a href="#">Prodotti</a></li>
-      <li><a href="#">Contatti</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h2>Benvenuti nella mia pagina</h2>
-    <p>Questa è una pagina di esempio.</p>
-  </section>
-  <footer>
-    <p>Copyright &copy; 2023</p>
-  </footer>
-</body>
+      nav li {
+        float: left;
+      }
+      nav li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav li a:hover {
+        background-color: #444;
+      }
+      main {
+        padding: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      /* Stili per la responsive design */
+      @media only screen and (max-width: 600px) {
+        nav li {
+          float: none;
+          display: inline-block;
+        }
+        nav li a {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Titolo della Pagina</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Servizi</a></li>
+        <li><a href="#">Prodotti</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Benvenuti nella nostra Pagina</h2>
+      <p>Qui puoi trovare informazioni sui nostri servizi e prodotti.</p>
+      <p>La nostra azienda si occupa di...</p>
+    </main>
+    <footer>
+      <p>Copyright © 2023. Tutti i diritti riservati.</p>
+    </footer>
+  </body>
 </html>
