@@ -1,36 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pagina responsive</title>
-    <style>
-      /* Stili globali */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La mia pagina</title>
+  <style>
+    /* Stili CSS per la pagina */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      text-align: justify;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    /* Media queries per il layout responsive */
+    @media screen and (min-width: 768px) {
+      /* Layout a due colonne */
+      header, footer {
+        display: none;
       }
-      
-      /* Stili per schermi di larghezza minore di 600px */
-      @media only screen and (max-width: 600px) {
-        /* Inserire qui i CSS per la versione mobile */
+      nav {
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
       }
-      
-      /* Stili per schermi di larghezza maggiore di 600px */
-      @media only screen and (min-width: 601px) {
-        /* Inserire qui i CSS per la versione desktop */
+      section {
+        width: 80%;
+        display: inline-block;
+        vertical-align: top;
       }
-    </style>
-  </head>
-  <body>
-    <header>
-      <!-- Inserire qui il codice HTML per l'header -->
-    </header>
-    <main>
-      <!-- Inserire qui il codice HTML per il contenuto principale -->
-    </main>
-    <footer>
-      <!-- Inserire qui il codice HTML per il footer -->
-    </footer>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La mia pagina</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Chi siamo</a></li>
+      <li><a href="#">Prodotti</a></li>
+      <li><a href="#">Contatti</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Benvenuti nella mia pagina</h2>
+    <p>Questa è una pagina di esempio.</p>
+  </section>
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
 </html>
