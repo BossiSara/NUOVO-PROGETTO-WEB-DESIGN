@@ -1,10 +1,12 @@
 # Progetto pagina web per esame Web Design
 Progetto esame Bossi Sara
 Pagina HTML5 Responsive
-# Strumenti utilizzati per creare la pagina:
--Codepen
--Github
--Netlify
+
+Strumenti utilizzati per creare la pagina:
+
+ -Codepen
+ -Github
+ -Netlify
 
 ACME 2022/2023
 
