@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,600;1,900&display=swap');
       body {
-        margin: 0;
-        padding: 0;
+        margin: 5;
+        padding: 5;
         font-family: 'Raleway', sans-serif;
       }
 img {
@@ -13,17 +13,17 @@ img {
         background-color: #FFEBCD;
         color: #8B4513;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
       }
-      nav {
+      nav 
         background-color:  #FFEBCD;
         color:  #8B4513;
-        padding: 10px;
+        padding: 5px;
       }
       nav ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 5;
+        padding: 5;
         overflow: hidden;
       }
       nav li {
@@ -40,13 +40,13 @@ img {
         background-color: #40E0D0;
       }
       main {
-        padding: 20px;
+        padding: 10px;
       }
       footer {
         background-color: #40E0D0;
         color:#FAEBD7;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
       }
       /* Stili per la responsive design */
       @media only screen and (max-width: 600px) {
