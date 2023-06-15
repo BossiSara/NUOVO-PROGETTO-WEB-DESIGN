@@ -58,21 +58,3 @@ img {
           padding: 10px;
         }
       }
-.slider {
-  width: 100%;
-  overflow: hidden;
-}
-
-.slider img {
-  width: 100%;
-  animation: slide 4s infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
