@@ -29,6 +29,7 @@ header {
   color: #8B4513;
   text-align: center;
   padding: 15px;
+  background-image: linear-gradient(#F9DDB3, #FFEBCD)
   
 }
 
@@ -44,7 +45,7 @@ nav ul {
   margin: 5px;
   padding: 5px;
   overflow: hidden;
-  background-image: linear-gradient(#F9DDB3, #FFEBCD)
+  
 }
 
 nav li {
