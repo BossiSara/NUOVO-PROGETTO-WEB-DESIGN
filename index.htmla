@@ -6,9 +6,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Pagina HTML5 Responsive</title>
-    <style>
-      /* Stili per il layout */
-    </style>
   </head>
   <body>
     <header>
@@ -45,4 +42,8 @@
       <p>Classe 2000, Sara è una Designer specializzata nella progettazione di lampade, spesso la si riconosce per il suo stile estroso e fuori dal comune. Fin da piccola ha progettato Lampade utilizzando barattoli di fagioli e materiale di riutilizzo che trovava a casa. Il suo slogan è "non mi aspetto niente ma sono già delusa"</p>
       <img src="immagini/io.jpg">
     </main>
-    <footer
+    <footer>
+      <p>Copyright © 2023. Tutti i diritti riservati.</p>
+    </footer>
+  </body>
+</html>
