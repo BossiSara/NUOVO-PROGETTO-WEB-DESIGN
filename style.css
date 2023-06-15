@@ -1,66 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,600;1,900&display=swap');
-      body {
+
+body {
     background-image: url("immagini_colleazione.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 8px;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
 }
- body {
-        margin: 8;
-        padding: 5;
-        font-family: 'Raleway', sans-serif;
-      }
 
 img {
-  width: 300px;
-  height: 250px;
+    width: 300px;
+    height: 250px;
 }
 
-      header {
-        background-color: #FFEBCD;
-        color: #8B4513;
-        text-align: center;
-        padding: 15px;
-      }
-      nav 
-        background-color:  #FFEBCD;
-        color:  #8B4513;
-        padding: 5px;
-      }
-      nav ul {
-        list-style-type: none;
-        margin: 5;
-        padding: 5;
-        overflow: hidden;
-      }
-      nav li {
-        float: left;
-      }
-      nav li a {
-        display: block;
-        color: #008080;
-        text-align: left;
-        padding: 15px 25px;
-        text-decoration: none;
-      }
-      nav li a:hover {
-        background-color: #40E0D0;
-      }
-      main {
+header {
+    background-color: #FFEBCD;
+    color: #8B4513;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color:  #FFEBCD;
+    color:  #8B4513;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #008080;
+    text-align: left;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #40E0D0;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #40E0D0;
+    color: #FAEBD7;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Stili per la responsive design */
+@media only screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        display: inline-block;
+    }
+    nav li a {
         padding: 10px;
-      }
-      footer {
-        background-color: #40E0D0;
-        color:#FAEBD7;
-        text-align: center;
-        padding: 10px;
-      }
-      /* Stili per la responsive design */
-      @media only screen and (max-width: 600px) {
-        nav li {
-          float: none;
-          display: inline-block;
-        }
-        nav li a {
-          padding: 10px;
-        }
-      }
+    }
+}
