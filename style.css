@@ -29,12 +29,14 @@ header {
   color: #8B4513;
   text-align: center;
   padding: 15px;
+  
 }
 
 nav {
   background-color:  #FFEBCD;
   color:  #8B4513;
   padding: 5px;
+   background-image: linear-gradient(#8B4513, #FFEBCD);
 }
 
 nav ul {
@@ -54,7 +56,7 @@ nav li a {
   text-align: left;
   padding: 15px 25px;
   text-decoration: none;
-  background-image: linear-gradient(#008080,#FAEBD7);
+
 }
 
 nav li a:hover {
