@@ -1,8 +1,8 @@
 # Progettazione sito vendita di Lampade dell'azienda Lumoos
 Bossi Sara, matricola 820
-  Corso Web Design, doc. Matteo Baccan
-  ACME Novara a.a. 2022/2023
-  Pagina HTML5 Responsive
+<br>Corso Web Design, doc. Matteo Baccan <br />
+ACME Novara a.a. 2022/2023
+Pagina HTML5 Responsive
 
 # Strumenti utilizzati per creare la pagina:
 
