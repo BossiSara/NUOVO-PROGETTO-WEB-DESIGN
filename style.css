@@ -27,7 +27,7 @@ h2 {
   background-image: url("immagini/sole nero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.01;
   z-index: -1;
 }
 
