@@ -1,8 +1,8 @@
 # Progetto pagina web Lumoos
 -Anno accademico 2022/2023
-<br /> Sara Bossi matricola 820
-<br/> ACME Novara Design, corso di Web Design
-<br /> Docente Matteo Baccan
+<br /> -Sara Bossi matricola 820
+<br/> -ACME Novara Design, corso di Web Design
+<br /> -Docente Matteo Baccan
 
 
 # Scopo del repository
