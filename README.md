@@ -1,18 +1,16 @@
-# Progettazione sito vendita di Lampade dell'azienda Lumoos
-Bossi Sara, matricola 820
-<br />Corso Web Design, doc. Matteo Baccan 
-<br />ACME Novara a.a. 2022/2023
-<br />Pagina HTML5 Responsive
-
-# Strumenti utilizzati per creare la pagina:
-
-  -Codepen
-  -Github
-  -Netlify
+# Progetto pagina web Lumoos
+-Anno accademico 2022/2023
+<br /> Sara Bossi matricola 820
+<br/> ACME Novara Design, corso di Web Design
+<br /> Docente Matteo Baccan
 
 
-
-# Descrizione:
-Sito di Lumoos (azienda fittizia creata dalla Studentessa Bossi Sara).
-Il sito Lumoos dove vende e pubblicizza lampade originali.
-Link Netlify: https://lumoos.netlify.app/
+# Scopo del repository
+-Realizzazione di un sito mono-pagina di Lampade di un'azienda fittizzia chiamata Lumoos
+-link sito web:  https://lumoos.netlify.app/
+# Elementi principali
+l'obbiettivo è quello di creare un sito web html5 resposnsive che comprenda i principale elementi della pagina, ossia:
+# Elementi usati per la realizazzione 
+# Caratteristiche struttura ed elementi pagina
+# Siti utilizzati per test permormance
+# Test validazione
