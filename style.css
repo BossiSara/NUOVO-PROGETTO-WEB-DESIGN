@@ -29,7 +29,7 @@ header {
   color: #8B4513;
   text-align: center;
   padding: 7px;
-  background-image: linear-gradient( #73EEDC , #A6F0E5)
+  background-image: linear-gradient(#73EEDC , #A6F0E5)
   
 }
 
@@ -37,6 +37,7 @@ nav {
   background-color:  #FFEBCD;
   color:  #8B4513;
   padding: 5px;
+  background-image: linear-gradient(#73EEDC , #A6F0E5)
   
 }
 
