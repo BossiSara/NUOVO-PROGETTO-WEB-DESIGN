@@ -28,7 +28,7 @@ header {
   background-color: #FFEBCD;
   color: #8B4513;
   text-align: center;
-  padding: 7px;
+  padding: 5px;
   background-image: linear-gradient(#73EEDC , #A6F0E5)
   
 }
@@ -36,8 +36,8 @@ header {
 nav {
   background-color:  #FFEBCD;
   color:  #8B4513;
-  padding: 5px;
-  background-image: linear-gradient(#73EEDC , #A6F0E5)
+  padding: 3px;
+  background-image: linear-gradient(#A6F0E5 , #73EEDC)
   
 }
 
