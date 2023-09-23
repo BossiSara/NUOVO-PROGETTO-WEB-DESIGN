@@ -11,9 +11,9 @@
 
   </head>
   <body>
-    <div class="background-scroll"></div>
+    <div class="background-image"></div>
     <header>
-     <h1> <img src="immagini/Logo grande.png" style="width: 80px;height:80px;"> &nbsp; LumOOs</h1>
+     <h1> <img src="immagini/Logo grande.png" style="width:80px;height:80px;"> &nbsp; LumOOs</h1>
     </header>
  <nav> 
   <ul>
@@ -27,10 +27,44 @@
 
     <main>
       <h2>"Accendi la luce"</h2>
-      <img src="immagini/organico3.jpg">
-      <img src="immagini/sci fi2.jpg">
-      <img src="immagini/magico3.jpg">
-      <img src="immagini/minimal2.jpg">
+      <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="immagini/rana accesa.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Froggy-Lamp</h5>
+        <p>"la rugiada che fa piegare la foglia"</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="immagini/salamandra3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Sala-Lamp</h5>
+        <p>"una luce calda con la tua salamandra"</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="immagini/libellula render.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Dragonf-Lamp</h5>
+        <p>"Ali che liberano la luce"</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
       <h3 id="Storia">STORIA</h3>
       <p>la nostra azienda offre prodotti d'illuminazione per casa tua</p>
       <img src="immagini/Ambientazione_lampada_dettaglio2.png"> 
