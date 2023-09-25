@@ -122,14 +122,43 @@
     <img src="immagini/sci fi 5.jpg">
     <img src="immagini/sci fi1.jpg">
     <br />
-    <h3 id="Luogo">DOVE PUOI TROVARCI</h3>
-    <h3 id="Designer">DESIGNER</h3>
-    <h5>Bossi Sara</h5>
-    <p>Classe 2000, Sara è una Designer specializzata nella progettazione di lampade, spesso la si riconosce per il suo stile estroso e fuori dal comune. Fin da piccola ha progettato Lampade utilizzando barattoli di fagioli e materiale di riutilizzo che trovava a casa. Il suo slogan è "non mi aspetto niente ma sono già delusa"</p>
-    <img src="immagini/io.jpg">
+    <h3 id="Luogo">CONTATTI</h3>
+    <br />
+
+    <p>Sede in Via Mario Rossi 7 (MI).
+      <br />
+      Chiama il numero verde +39 123 45678910
+      <br />
+      Contattaci alla mail Lumoos@hotmail.com
+    </p>
+
+    </section>
+
+    <!--dove siamo-->
+    <section class="dove-puoi-trovarci">
+      <h3 id="luogo"> &nbsp; DOVE PUOI TROVARCI</h3>
+
+      <br />
+
+      <div id="mappa" style="width: 100%; height: auto;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.715197553132!2d8.466003496760756!3d45.43524217998725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47864ff629228015%3A0x4927693e723d8225!2sArea%20Feste!5e0!3m2!1sit!2sit!4v1693989652008!5m2!1sit!2sit" title="dove trovarci" defer width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <h3 id="Designer">DESIGNER</h3>
+      <h5>Bossi Sara</h5>
+      <p>Classe 2000, Sara è una Designer specializzata nella progettazione di lampade, spesso la si riconosce per il suo stile estroso e fuori dal comune. Fin da piccola ha progettato Lampade utilizzando barattoli di fagioli e materiale di riutilizzo che trovava a casa.</p>
+      <img src="immagini/io.jpg">
   </main>
   <footer>
-    <p>Copyright © 2023. Tutti i diritti riservati.</p>
+    <p>Copyright © 2023. Tutti i diritti riservati a LumOOs
+      <br />
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.facebook.com/ProLocoCasalbeltrame/?locale=it_IT">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </p>
   </footer>
   <script>
     // Funzione per mostrare l'avviso dei cookie
@@ -146,36 +175,14 @@
     document.addEventListener('DOMContentLoaded', showCookieNotice);
     //checkbox
     document.getElementById('submit-btn').addEventListener('click', function(event) {
-      event.preventDefault(); // Evita il comportamento predefinito del pulsante di invio
-      var checkbox = document.getElementById('privacy-checkbox');
-      if (checkbox.checked) {
-        // Azioni da eseguire se il checkbox è selezionato
-        // Esempio: invio del form
-        console.log('Form inviato con successo!');
-      } else {
-        // Avviso se il checkbox non è selezionato
-        alert('Devi accettare l\'informativa sulla privacy per poter inviare il form.');
-      }
-    });
-    // Funzione per tornare in alto
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-    // Mostra o nascondi il pulsante in base alla posizione dello scroll
-    window.addEventListener('scroll', function() {
-      var button = document.getElementById('back-to-top-button');
-      if (window.scrollY > 200) {
-        button.style.display = 'block';
-      } else {
-        button.style.display = 'none';
-      }
-    }); <
-    script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity = "sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin = "anonymous" >
+          event.preventDefault(); // Evita il comportamento predefinito del pulsante di invio
+          var checkbox = document.getElementById('privacy-checkbox');
+          if (checkbox.checked) {
+            // Azioni da eseguire se il checkbox è selezionato
+            <
+            script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity = "sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin = "anonymous" >
   </script>
 </body>
 
