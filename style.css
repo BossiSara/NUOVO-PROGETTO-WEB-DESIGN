@@ -68,22 +68,6 @@ img {
   padding: 5px;
   
 }
-.image-container {
-    position: relative;
-    overflow: hidden;
-    width: 300px; /* Larghezza desiderata dell'immagine */
-    height: 200px; /* Altezza desiderata dell'immagine */
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s; /* Aggiunge una transizione fluida */
-}
-
-.image-container:hover img {
-    transform: scale(1.1); /* Ingrossa l'immagine al passaggio del mouse */
-}
 
 
 header {
