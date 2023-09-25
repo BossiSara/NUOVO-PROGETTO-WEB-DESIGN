@@ -121,6 +121,49 @@ footer {
   padding: 10px;
 }
 
+/* Stile per l'avviso sui cookie */
+.cookie-notice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00171F;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.cookie-message {
+  font-size: 14px;
+  color: white;
+  margin-right: 10px;
+}
+
+.accept-cookie {
+    background-color:  #ECE4B7;
+    color: #00171F;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.accept-cookie:hover {
+    background-color: #6B7FD7;
+}
+
+#back-to-top-button {
+  display: none; /* Nascondi il pulsante inizialmente */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #006400;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
 
 
 /* Stili per la responsive design */
