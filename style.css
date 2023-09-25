@@ -201,18 +201,6 @@ main {
 }
 
 #back-to-top-button {
-  display: none; /* Nascondi il pulsante inizialmente */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #006400;
-  color: #fff;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-}
-#back-to-top-button {
   display: none; 
   
   /* Nascondi il pulsante inizialmente */
