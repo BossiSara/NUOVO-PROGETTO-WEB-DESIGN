@@ -7,6 +7,7 @@ body {
   text-align: center;
 }
 
+
 h1 {
     font-size: 50px; 
     color: #FFEBCD;
@@ -178,7 +179,7 @@ main {
     color: #fff;
     text-align: center;
     padding: 10px;
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .cookie-message {
