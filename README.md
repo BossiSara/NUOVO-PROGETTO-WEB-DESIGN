@@ -28,4 +28,7 @@
 <br />-CSS
 <br />-Javascript
 # Siti utilizzati per test permormance
+-Pagespeed insight
+<br />-Seoptimer
 # Test validazione
+-Markup validation service
