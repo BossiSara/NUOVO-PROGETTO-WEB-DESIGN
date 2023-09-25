@@ -22,6 +22,10 @@ h3 {
     color: #ECE4B7;
     background-color:#B5B682; 
   }
+h5 {
+    font-size: 50px; 
+    color: #FFEBCD;
+  }
   
 p1 {
     color: #ECE4B7;
@@ -32,7 +36,12 @@ p2 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-
+p3 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
 
 .background-image {
   position: fixed;
@@ -114,7 +123,50 @@ main {
   padding: 20px;
 }
 
-
+/*form*/
+.form-container {
+  margin: 10px 0;
+  padding: 30px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #00171F;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+/*check box privacy*/
+.privacy-text {
+  margin-top: 10px;
+  font-size: 15px;
+  color:  blue;
+}
+.checkbox-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color:  #ECE4B7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.checkbox-btn:hover {
+  background-color: #ccc;
+}
+.checkbox-btn:checked {
+  background-color: #55b957;
+  color: #fff;
+}
+/*fine check box privacy*/
 
 /* Stile per l'avviso sui cookie */
 .cookie-notice {
@@ -122,7 +174,7 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color:#00171F;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -144,7 +196,7 @@ main {
 }
 
 .accept-cookie:hover {
-    background-color: pink;
+    background-color: #FFEBCD;
 }
 
 #back-to-top-button {
@@ -183,3 +235,4 @@ footer {
   nav ul {
     flex-direction: column;
     font-size: 12px;
+    }
